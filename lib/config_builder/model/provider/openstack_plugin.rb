@@ -5,6 +5,9 @@ class ConfigBuilder::Model::Provider::OpenstackPlugin < ConfigBuilder::Model::Pr
   def_model_attribute :api_key
   def_model_attribute :tenant
   def_model_attribute :region
+  def_model_attribute :project_name
+  def_model_attribute :project_domain
+  def_model_attribute :user_domain
   def_model_attribute :endpoint
   def_model_attribute :proxy
   def_model_attribute :ssl_verify_peer
